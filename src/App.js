@@ -337,7 +337,7 @@ class App extends Component {
           </ul>
         </nav>
         <div className="content-div">
-          {isTrue && (
+          {!isTrue && (
             <div className="first-div">
               <img src={imgUrl} className="big-image" alt="match" />
               <ul className="tab-elements">
